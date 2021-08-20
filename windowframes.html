@@ -1,0 +1,442 @@
+<!doctype html>
+<html>
+<head>
+  	<meta charset="utf-8">
+	      <title>WINDOW FRAMES</title>
+                         <link rel = "icon" href =
+        "images/1.jpg"
+        type = "image/x-icon">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	      <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap" rel="stylesheet">
+	<style>
+	* {
+  box-sizing: border-box;
+  margin:0;
+ 
+}
+
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+[class*="col-"] {
+  float: left;
+
+}
+
+
+/* For mobile phones: */
+[class*="col-"] {
+  width: 100%;
+}
+
+@media only screen and (min-width: 600px) {
+  /* For tablets: */
+  .col-s-1 {width: 8.33%;}
+  .col-s-2 {width: 16.66%;}
+  .col-s-3 {width: 25%;}
+  .col-s-4 {width: 33.33%;}
+  .col-s-5 {width: 41.66%;}
+  .col-s-6 {width: 50%;}
+  .col-s-7 {width: 58.33%;}
+  .col-s-8 {width: 66.66%;}
+  .col-s-9 {width: 75%;}
+  .col-s-10 {width: 83.33%;}
+  .col-s-11 {width: 91.66%;}
+  .col-s-12 {width: 100%;}
+}
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+}
+
+
+
+.topnav {
+  overflow: hidden;
+  background-color: #f4511e;
+ display:flex;
+ justify-content:space-between;
+
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+    font-family:Montserrat, sans-serif;
+}
+
+.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+.imgh6{
+width:100%;
+hegiht:auto;
+}
+.dropdown .dropbtn {
+  font-size: 17px;    
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+   font-family:Montserrat, sans-serif;
+}
+
+
+h1{
+text-align: center;
+    font-family: sans-serif;
+    font-weight: bold;
+
+
+}
+
+.jumboturn{
+background-image:  url("images/24.jpg");
+height:600px;
+width:100%;
+background-size:cover;
+display:flex;
+ justify-content:center;
+ align-items:center;
+}
+.tile2 h2 {
+    color:#f58664;
+    font-family: Montserrat, sans-serif;
+    font-weight: revert;
+
+}
+h3{
+    color: #562b1e;
+    font-family: Montserrat, sans-serif;
+    font-weight: revert;
+    font-size: 15px;
+}
+h4{
+    color: #100e0d;
+    font-family: Montserrat, sans-serif;
+    font-weight: revert;
+    font-size: 15px;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+
+
+.topnav a:hover, .dropdown:hover .dropbtn {
+  background-color: white;
+  color:#f4511e;
+  cursor:pointer;
+
+}
+
+.dropdown-content a:hover {
+  background-color: #f4511e;
+  color: white;
+  
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+
+.col-6 img{
+  width:100%;
+  height:auto;
+}
+
+h1{
+    text-align: center;
+}
+
+
+				
+
+.tile2{
+
+height:220px;
+margin:10px;
+
+}
+
+.col-6{
+padding:15px;
+}
+
+.tile2 button{
+padding:12px 110px;
+background-color:#5bbf5d;
+color:white;
+border:none;
+    font-family: Montserrat, sans-serif;
+  font-size:20px;
+}
+
+
+.fotter{
+height:190px;
+
+
+}
+
+.fotter div {
+background-color:#e88667;;
+}
+
+.product a{
+text-decoration:none;
+padding:6px;
+display:inline-block;
+color:#112912;
+}
+
+.product{
+list-style:none;
+font-family: 'Lato', sans-serif;
+font-weight:bold;
+padding:10px;
+
+}
+
+
+.para{
+ margin:20px;
+  margin-left:100px;
+    font-family: Montserrat, sans-serif;
+    font-weight: bold;
+    color:#9a4930;
+     font-size:20px;
+
+}
+
+span.number {
+    margin: 10px;
+}
+
+.contact span.number{
+  padding:2px;
+ display:inline-block;
+}
+
+.contact input[type="text"] {
+    height: 30px;
+    outline: none;
+    border:none;
+}
+
+.jumboturn h1 {
+    color: #ff4105;
+    font-size: 40px;
+    background-color: #ce9684;
+}
+.contact button {
+    height: 30px;
+   border-color:#d43f3a;
+  background-color:#d9534f;
+   font-size:14px;
+  padding:0px 20px;
+   color:white;
+   border:none;
+  border:1px solid #d43f3a;
+    font-family:Montserrat, sans-serif;
+}
+
+.aboutus h2{
+text-align:center;
+}
+
+.aboutus{
+
+padding:10px;
+
+}
+.contact{
+
+padding:10px;
+}
+
+.col-4 h2{
+font-family: 'Lato', sans-serif;
+}
+.col-2 h2{
+font-family: 'Lato', sans-serif;
+}
+.col-6 h2{
+font-family: 'Lato', sans-serif;
+
+
+}	
+
+.aboutus p{
+font-family: 'Lato', sans-serif;
+color:#112912;
+ font-size:20px;
+}
+
+.contact span.number {
+font-family: 'Lato', sans-serif;
+color:#112912;
+}
+
+
+
+.col-s-12.col-l-12.fotters1 {
+    text-align: center;
+    background-color:#b56a52;
+    color:white;
+    padding:20px;
+   font-family: 'Lato', sans-serif;
+  font-size:20px;
+}
+	</style>
+</head>
+<body>
+
+   	<div class="topnav">
+	<div>
+	<a href="index.html">WINDOW AND DOOR DESIGN</a>
+	</div>
+	<div>
+	<a href="contactus.html">CONTACT US</a>
+	
+	
+	  <div class="dropdown">
+	    <button class="dropbtn">PRODUCTS
+	 <i class="fa fa-caret-down"></i>
+	</button>
+	      <div class="dropdown-content">
+		<a href="doors.html">DOORS</a>
+		<a href="windowframes.html">WINDOW FRAMES</a>
+		<a href="doorframes.html">DOOR FRAMES</a>
+			
+	  </div>
+              </div>
+		
+           </div>
+</div>
+	
+	<div class="jumboturn">
+	<h1>WINDOW FRAMES</h1>
+	</div>
+
+	<div class="window">
+	<div class="col-6 col-s-6">
+	<img src="images/25.jpg">
+	<div class="para">
+	<p>Window No.1</p>
+	</div>
+ 	</div>
+
+		
+	<div class="col-6 col-s-6">
+	<img src="images/26.jpg">
+	<div class="para">
+	<p>Window No.2</p>
+	</div>
+ 	</div>
+
+ 	</div>
+	
+
+	
+
+
+
+          <div class="fotter">
+   
+     <div class="col-12 col-s-12 fotter">
+     
+	<div class="col-2 col-s-2 product">
+	  <h2>Our Products</h2>
+	   	
+		
+	      	<li><a href="doors.html">DOORS</a></li>
+		<li><a href="windowframes.html">WINDOW FRAMES</a></li>
+		<li><a href="doorframes.html">DOOR FRAMES</a></li>
+	</div>
+
+
+
+	<div class="col-6 col-s-6 aboutus">
+	<h2>About Us</h2>
+	<p>It was established 2021 in nepal ( katmandu new baneshwor)  Its provides windows and door design . it is  one of the best  windows and  door           design company of  nepal. </p>
+	</div>
+	
+
+	<div class="col-4 col-s-4 contact">
+	  <h2>Contact Us</h2>	
+ 		<i class="fa fa-phone"></i><span class="number">+977 9863942239</span><br>
+               <i class="fa fa-facebook"> </i><span class="number">Doors Windows Design @facebook.com</span>
+	<div class="suscribe">
+  	<input type="text"placeholder="enter a email">
+	<button id="btn">Suscribe</button>
+
+
+	</div>
+	</div>
+   <hr>
+   
+ <div class="col-s-12 col-l-12 fotters1">
+ &copy 2021 Door And Window Design All Rights Reserved
+  </div>
+</div>
+</body>
+</html>
